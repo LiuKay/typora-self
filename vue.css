@@ -506,19 +506,19 @@ table {
 }
 
 table tr {
-    border-top: 1px solid #dfe2e5;
+    border-top: 2px solid #ca0000;
     margin: 0;
     padding: 0;
 }
 
-table tr:nth-child(2n),
+/* table tr:nth-child(2n),
 thead {
-    background-color: #fafafa;
-}
+    background-color: #ca0000;
+} */
 
 table tr th {
     font-weight: bold;
-    border: 1px solid #dfe2e5;
+    border: 2px solid #6389f1;
     border-bottom: 0;
     text-align: left;
     margin: 0;
@@ -526,7 +526,7 @@ table tr th {
 }
 
 table tr td {
-    border: 1px solid #dfe2e5;
+    border: 2px solid #8c8be3;
     text-align: left;
     margin: 0;
     padding: 6px 13px;
